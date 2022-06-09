@@ -19,6 +19,7 @@ describe('test beer routes', () => {
         brewery: 'Pyramid Brewing Co.',
         location: 'Portland, Oregon',
         hops: 'Nugget',
+        ABV: '5%',
       },
       {
         id: '2',
@@ -27,6 +28,7 @@ describe('test beer routes', () => {
         brewery: 'Boneyard Beer',
         location: 'Bend, Oregon',
         hops: 'Simcoe, Centennial, Chinook, CTZ',
+        ABV: '9%',
       },
       {
         id: '3',
@@ -35,6 +37,7 @@ describe('test beer routes', () => {
         brewery: 'Breadkside Brewery',
         location: 'Portland, Oregon',
         hops: 'Blend',
+        ABV: '12.3%',
       },
       {
         id: '4',
@@ -43,6 +46,7 @@ describe('test beer routes', () => {
         brewery: 'Rogue',
         location: 'Oregon',
         hops: 'Mosaic, El Dorado, Belma',
+        ABV: '6.7%',
       },
       {
         id: '5',
@@ -51,6 +55,7 @@ describe('test beer routes', () => {
         brewery: 'Rogue',
         location: 'Oregon',
         hops: 'Mosaic, Simcoe, Belma',
+        ABV: '6.8%',
       },
       {
         id: '6',
@@ -59,6 +64,7 @@ describe('test beer routes', () => {
         brewery: 'Ecliptic Brew Co.',
         location: 'Portland, Oregon',
         hops: 'Amarillo, Azacca, Centennia, Citra, Mosiac, Simcoe',
+        ABV: '7.8%',
       },
       {
         id: '7',
@@ -67,6 +73,7 @@ describe('test beer routes', () => {
         brewery: 'Omission Brewing',
         location: 'Portland, Oregon',
         hops: 'Citris',
+        ABV: '4.2%',
       },
     ]);
   });
@@ -80,7 +87,7 @@ describe('test beer routes', () => {
       brewery: 'Pyramid Brewing Co.',
       location: 'Portland, Oregon',
       hops: 'Nugget',
-      abv: '5%',
+      ABV: '5%',
     });
   });
 
