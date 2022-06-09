@@ -13,7 +13,7 @@ CREATE table beers (
 );
 
 INSERT INTO beers (name, style, brewery,location, hops, ABV) VALUES
-('Curve Ball', 'Blonde Ale', 'Pyramid Brewering Co.', 'Portland, Oregon', 'Nugget', '5%'),
+('Curve Ball', 'Blonde Ale', 'Pyramid Brewing Co.', 'Portland, Oregon', 'Nugget', '5%'),
 ('Hop Venon', 'Double IPA', 'Boneyard Beer', 'Bend, Oregon','Simcoe, Centennial, Chinook, CTZ', '9%'),
 ('Plunderphonics', 'American Imperial Stout Aged in Bourbon Barrels', 'Breadkside Brewery', 'Portland, Oregon', 'Blend', '12.3%'),
 ('Batsquatch', 'Hazy IPA', 'Rogue', 'Oregon', 'Mosaic, El Dorado, Belma', '6.7%'),
